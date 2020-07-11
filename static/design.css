@@ -1,0 +1,44 @@
+body{
+        background-color: #4B0082;
+        }
+
+       h2{
+       text-align:center;
+       font-size:30px;
+       color:hotpink;
+       margin:10px;
+       padding:30px;
+
+       }
+       h4{text-align:center;
+       color:hotpink;}
+       .box{
+       width:500px;
+       height:300px;
+       margin:10px;
+       border:2px solid blue;
+       border-radius:30px;
+       background-color:black;
+       color:white;
+       font-size:20px;
+       text-align:top;
+
+       }
+       .container{
+       margin: auto;
+       text-align:center;
+       }
+       .sub{
+       margin:auto;
+       text-align: center;
+       padding:20px;
+       }
+       .but{
+       width:100px;
+       height:30px;
+       font-size:20px;
+       color: #800080;
+       background-color:
+       }
+
+}

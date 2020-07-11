@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{url_for('static',filename='design.css') }}">
+
+    <title>My Webpage</title>
+</head>
+<body>
+<h2>NLP Resturant Review Classifier</h2>
+<h4>Please Write Your Review</h4>
+<form action="{{ url_for('predict')}}" method="post">
+    <div class="container">
+     <input type="text" name="review" id="" class="box" >
+</div>
+    <div class="sub">        <input type="submit" value="Submit" class="but">
+</div>
+</form>
+<div class="flas">
+{% with messages=get_flashed_messages() %}
+   {% if messages %}
+     {% for msg in messages %}
+        <h2 style="text-align:center;color:hotpink;">{{msg}}</h2>
+     {% endfor %}
+   {% endif %}
+{% endwith %}
+    </div>
+
+
+
+</body>
+</html>
