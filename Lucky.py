@@ -5,6 +5,7 @@ from nltk.stem import WordNetLemmatizer
 import pandas as pd
 import numpy as np
 import nltk
+nltk.download("stopwords")
 lema=WordNetLemmatizer()
 app=Flask(__name__)
 app.secret_key="kunu_lucky_pintu"
@@ -21,8 +22,7 @@ punc=""":;""?!#@&.,"""
 def predict():
   #  data = pd.read_csv("Restaurant_Reviews.tsv", delimiter="\t", quoting=3)
    # from nltk.corpus import stopwords
-  #import nltk
-  #nltk.download("stopwords")
+  
    # from nltk.stem import WordNetLemmatizer
    # corpus = []
    # punc = """:;""?!#@&.,"""
