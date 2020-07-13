@@ -30,7 +30,11 @@ pip install nltk
 # Technologies Used
 
 Pyhton 
+
 NLTK
+
 Gunicorn
+
 Flask
+
 LogisticRegression
