@@ -25,6 +25,7 @@ This  Project is divided into two parts
 
 # Installation
 The code is written in Python 3.7.You can install the NLTK library by using this command
+
 pip install nltk
 
 # Technologies Used
