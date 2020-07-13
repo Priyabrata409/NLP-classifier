@@ -10,3 +10,6 @@
 - Deployment on Heroku
 - Technologies Used
 - Team
+# Demo
+Link:https://resturantreviewclassifier.herokuapp.com/
+![alt text](https://resturantreviewclassifier.herokuapp.com/)
