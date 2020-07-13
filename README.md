@@ -1,6 +1,6 @@
-#Sentiment Analysis of Restaurant Reviews
+Sentiment Analysis of Restaurant Reviews
 
-#Table of Content
+Table of Content
 Demo 
 Overview 
 Motivation
