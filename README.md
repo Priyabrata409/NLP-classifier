@@ -1,4 +1,4 @@
-# Sentiment Analysis of Restaurant Reviews
+# Sentiment Analysis of Restaurant Reviews (An NLP Use Case)
 
 # Table of Content
 - Demo 
